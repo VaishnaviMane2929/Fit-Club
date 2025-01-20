@@ -1,6 +1,6 @@
-import image1 from "../assets/t-image1.png";
-import image2 from "../assets/t-image2.png";
-import image3 from "../assets/t-image3.png";
+import image1 from "../../assets/image1.png";
+import image2 from "../../assets/image2.png";
+import image3 from '../../assets/image3.png'
 
 export const testimonialsData = [
   {

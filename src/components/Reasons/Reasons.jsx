@@ -5,6 +5,9 @@ import image2 from '../../assets/image2.png'
 import image3 from '../../assets/image3.png'
 import image4 from '../../assets/image4.png'
 import tick from '../../assets/tick (1).png'
+import nb from '../../assets/nb.png'
+import adidas from '../../assets/adidas.png'
+import nike from '../../assets/nike.png'
 
 const Reasons = () => {
   return (
@@ -47,8 +50,12 @@ const Reasons = () => {
           fontWeight: "normal"
         }}>
           OUR PARTNERS
-
         </span>
+         <div className="pertners">
+          <img src={nb} alt="" />
+         <img src={adidas} alt="" />
+         <img src={nike} alt="" />
+         </div>
         
         
       </div>

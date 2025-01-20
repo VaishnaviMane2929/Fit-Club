@@ -68,3 +68,10 @@
     width: 2rem;
     height: 2rem;
 }
+.pertners {
+    display: flex;
+    gap: 1rem;
+}
+.pertners>img {
+    width: 2.5rem;
+}

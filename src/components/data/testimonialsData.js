@@ -1,17 +1,17 @@
-import image1 from "../../assets/image1.png";
-import image2 from "../../assets/image2.png";
-import image3 from '../../assets/image3.png'
+import image2 from "../../assets/t-image2.png";
+import image1 from "../../assets/t-image1.png";
+import image3 from '../../assets/t-image3.png'
 
 export const testimonialsData = [
   {
-    image: image1,
+    image: image2,
     review:
       "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
     name: 'MATHEW HENDRICKSON',
     status : 'ENTREPRENEUR'
   },
   {
-    image: image2,
+    image: image1,
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
     name: 'JOHN KEVIN',
     status: 'COACH'

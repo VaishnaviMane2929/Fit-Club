@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./Header.css";
 import Bars from '../../assets/bars.png'
 import Logo from "../../assets/logo.png";
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+
+// import {Link } from "react-scroll";
 
 const Header = () => {
   const mobile = window.innerWidth<=768 ? true: false;
@@ -21,12 +23,17 @@ const Header = () => {
       ):
       (
         <ul className="header-menu">
-        <li onClick={()=> setMenuOpened(false)}>
+          <li onClick={() => setMenuOpened(false)}>Home</li>
+          <li onClick={() => setMenuOpened(false)}>Programs</li>
+          <li onClick={() => setMenuOpened(false)}>Why Us</li>
+          <li onClick={() => setMenuOpened(false)}>Plants</li>
+          <li onClick={() => setMenuOpened(false)}>Testimonials</li>
+        {/* <li onClick={()=> setMenuOpened(false)}>
           <Link>Home</Link></li>
         <li onClick={()=> setMenuOpened(false)}>Programs</li>
         <li onClick={()=> setMenuOpened(false)}>Why Us</li>
         <li onClick={()=> setMenuOpened(false)}>Plants</li>
-        <li onClick={()=> setMenuOpened(false)}><Link to='Testimonials' span={true} smooth={true}>Testimonials</Link></li>
+        <li onClick={()=> setMenuOpened(false)}><Link to='Testimonials' span={true} smooth={true}>Testimonials</Link></li> */}
       </ul>
 
       )

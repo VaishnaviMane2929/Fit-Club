@@ -18,3 +18,17 @@
     color: var(--orange);
     cursor: pointer;
   }
+
+  @media screen and (max-width:768px) {
+
+    .Header>:nth-child(2) {
+      position: fixed;
+      right: 2rem;
+      z-index: 90;
+    }
+    .header-menu {
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 2rem;
+    }
+  }

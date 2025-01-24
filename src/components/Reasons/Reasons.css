@@ -75,3 +75,30 @@
 .pertners>img {
     width: 2.5rem;
 }
+
+@media screen and (max-width:768px) {
+
+    .Reasons {
+        flex-direction: column;
+    }
+    .Left-r {
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+    .Left-r >:nth-child(1) {
+        width: 7rem;
+        height: 17rem;
+    }
+    .Left-r>:nth-child(2) {
+        width: 15rem;
+        height: 10rem;
+    }
+    .Left-r>:nth-child(3) {
+        width: 7rem;
+        
+    }
+    .Left-r>:nth-child(4) {
+        width: 6rem;
+        height: 6rem;
+    }
+}

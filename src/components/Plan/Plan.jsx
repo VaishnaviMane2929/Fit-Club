@@ -5,7 +5,7 @@ import '../Plan/Plan.css'
 
 const Plan = () => {
   return (
-    <div className='plan-container'>
+    <div className='plan-container' id='plan'>
         <div className='blur plans-blur-1'> </div>
         <div className='blur plans-blur-2'> </div>
 

@@ -10,7 +10,8 @@ const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false);
   return (
-    <div className="Header ">
+   <>
+    <div className="Header">
       <img src={Logo} alt="" className="logo" />
       {menuOpened === false && mobile === true ? (
         <div
@@ -28,14 +29,15 @@ const Header = () => {
           />
         </div>
       ) : (
-        <ul className="header-menu">
-          <a href="#home">
+        <ul className="header-menu">     
+          <a href="#hero">
             <li onClick={() => setMenuOpened(false)}>Home</li>
           </a>
           <a href="#programs">
             <li onClick={() => setMenuOpened(false)}>Programs</li>
           </a>
-          <li onClick={() => setMenuOpened(false)}>Why Us</li>
+         <a href="#reason"> <li onClick={() => setMenuOpened(false)}>Why Us</li>
+         </a>
           <a href="#plan">
             <li onClick={() => setMenuOpened(false)}>Plants</li>
           </a>
@@ -48,9 +50,11 @@ const Header = () => {
         <li onClick={()=> setMenuOpened(false)}>Why Us</li>
         <li onClick={()=> setMenuOpened(false)}>Plants</li>
         <li onClick={()=> setMenuOpened(false)}><Link to='Testimonials' span={true} smooth={true}>Testimonials</Link></li> */}
+
         </ul>
       )}
     </div>
+   </>
   );
 };
 
